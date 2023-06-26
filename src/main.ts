@@ -1,5 +1,4 @@
 /// <reference types="vite/client" />
-import './lib/index.css';
 
 export * from './lib/types.js';
 export * from './ui/Checkbox.jsx';
