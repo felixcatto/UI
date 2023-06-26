@@ -1,5 +1,5 @@
 build:
-	npx yalc publish --push --changed --scripts=false
+	npx yalc publish --push --scripts=false
 
 build-watch: build
 	node scripts/watch.js
