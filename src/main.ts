@@ -1,5 +1,3 @@
-/// <reference types="vite/client" />
-
 export * from './lib/types.js';
 export * from './ui/Checkbox.jsx';
 export * from './ui/Collapse.jsx';

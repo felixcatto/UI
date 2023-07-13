@@ -17,8 +17,8 @@
   background: white;
   transition: 0.25s;
   &_active {
-    background: var(--secondary);
-    border-color: var(--secondary);
+    background: var(--uikit-secondary);
+    border-color: var(--uikit-secondary);
   }
   &_disabled {
     @apply bg-slate-200 border-slate-400;
@@ -28,7 +28,7 @@
 }
 
 .checkbox:hover .visualBox:not(.visualBox_disabled) {
-  border-color: var(--secondary);
+  border-color: var(--uikit-secondary);
 }
 
 .checkMark {
@@ -51,7 +51,7 @@
   transition: 0.25s;
   &_active {
     visibility: visible;
-    background: var(--secondary);
+    background: var(--uikit-secondary);
   }
 }
 
@@ -70,10 +70,10 @@
   cursor: pointer;
   user-select: none;
   &:hover .expandVisualBox {
-    border-color: var(--secondary);
+    border-color: var(--uikit-secondary);
   }
   &:hover .line {
-    background-color: var(--secondary);
+    background-color: var(--uikit-secondary);
   }
 }
 
@@ -102,7 +102,7 @@
   right: 3px;
   height: 2px;
   transition: 0.25s;
-  background-color: var(--secondary);
+  background-color: var(--uikit-secondary);
 
   &_two {
     transform: rotate(90deg);

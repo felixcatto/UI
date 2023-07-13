@@ -26,6 +26,6 @@
     @apply bg-slate-300;
   }
   &_active {
-    color: var(--primary);
+    color: var(--uikit-primary);
   }
 }

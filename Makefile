@@ -4,8 +4,10 @@ build:
 build-watch: build
 	node scripts/watch.js
 
-publish:
+bump-version:
 	npm version patch -f
+
+publish:
 	npm publish --access public
 
 lint:
