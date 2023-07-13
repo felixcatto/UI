@@ -1,9 +1,9 @@
 .selectRoot {
   display: block;
   &_focused {
-    border-color: var(--primary);
+    border-color: var(--uikit-primary);
     outline: 0;
-    box-shadow: 0 0 0 4px var(--primary-rgba-25);
+    box-shadow: 0 0 0 4px var(--uikit-primary-rgba-25);
   }
 }
 
@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   flex: none;
-  background: var(--primary);
+  background: var(--uikit-primary);
   color: white;
   margin-right: 5px;
   margin-left: 5px;

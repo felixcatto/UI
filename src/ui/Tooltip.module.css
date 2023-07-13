@@ -1,4 +1,8 @@
 .tooltip {
+  --tooltipCaretHeight: 8px;
+  --tooltipCaretWidth: 6px;
+  --tooltipTransitionDuration: 0.15s;
+  --tooltipColor: var(--uikit-primary);
   pointer-events: none;
 }
 

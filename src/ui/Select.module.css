@@ -26,9 +26,9 @@
   }
   &_selected {
     color: white;
-    background: var(--secondary);
+    background: var(--uikit-secondary);
     &:hover {
-      background: var(--secondary);
+      background: var(--uikit-secondary);
     }
   }
 }
